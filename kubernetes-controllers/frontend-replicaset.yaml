@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: nailsaitov/otus.hw1.kubernetes-intro.frontend:0.0.1
+        image: nailsaitov/otus.hw1.kubernetes-intro.frontend:0.0.2
         env:
         - name: PRODUCT_CATALOG_SERVICE_ADDR
           value: "productcatalogservice:3550"
