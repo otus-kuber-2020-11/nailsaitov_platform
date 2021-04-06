@@ -4,6 +4,7 @@ metadata:
   name: storage-pod
 spec:
   containers:
+  - name: storage-pod
     image: ubuntu:18.04
     command: ["/bin/sh", "-c", "tail -f /dev/null"]
     volumeMounts:
